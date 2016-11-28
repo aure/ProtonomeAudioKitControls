@@ -16,8 +16,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target   = '8.0'
   s.ios.source_files        = 'Classes/**/*.swift'
   s.requires_arc            = true
-  
-  s.dependency 'AudioKit', '~> 2.0'
+
   s.dependency 'Bezzy', '~> 1.0'
   s.dependency 'Degrad', '~> 1.0'
   s.dependency 'Lerp', '~> 2.0'
